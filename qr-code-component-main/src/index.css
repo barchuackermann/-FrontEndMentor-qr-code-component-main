@@ -1,27 +1,20 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 main{
-    background-color: #F0F0F0;
+    background-color: hsl(0, 0%, 100%);
     min-height: 97vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .component-card-container{
-    background-color: #D5E1EF;
-    width: 75%;
-    height: 80vh;
-    margin: auto;
+    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1%;
-    -webkit-border-radius: 1%;
-    -moz-border-radius: 1%;
-    -ms-border-radius: 1%;
-    -o-border-radius: 1%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+    width: 100vw;
+    height: 100vh;
 }
 .component-card-container .card {
     max-width: 18rem;
@@ -64,36 +57,28 @@ main{
 
 .component-card-container .card .card-body .card-title, .component-card-container .card .card-body .card-text{
     text-align: center;
+    padding: 0 0.5rem;
 }
 
 .component-card-container .card .card-body .card-title {
-    font-size: 1rem;
-    font-weight: 900;
-    color: rgb(6, 10, 56);
-    padding: 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 .component-card-container .card .card-body .card-text{
-    font-size: 0.75rem;
-    color: grey;
-    padding: 0 0.5rem;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
     margin-bottom: 1rem;
+    font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+.attribution .barchu{
+    color: black;
+    background-color: blueviolet;
 }
